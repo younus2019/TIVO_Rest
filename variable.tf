@@ -1,5 +1,5 @@
 variable "mso_ref_id" {
-  default = "Aryan"
+  default = "Aryanmohm"
 }
 variable "chn_ref_id" {
   default = "chn12"
