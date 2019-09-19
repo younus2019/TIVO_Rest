@@ -1,5 +1,5 @@
 variable "mso_ref_id" {
-  default = "1000"
+  default = "2000"
 }
 variable "chn_ref_id" {
   default = "chn12"
