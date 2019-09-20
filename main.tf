@@ -27,7 +27,7 @@ provider "restapi" {
 # This will ADD the user named "Foo" as a managed resource
 resource "restapi_object" "Mso_object" {
   path = "/TiVorestapi.TiVo.com/lineartv/mso"
-  data = "{ \"id\": \"${var.mso_ref_id}\", \"name\": \"mso_HBO1\"}"
+  data = "{ \"id\": \"${var.mso_ref_id}\", \"name\": \"mso_star\"}"
 }
 resource "restapi_object" "Locality_object" {
   path = "/TiVorestapi.TiVo.com/lineartv/locality"
